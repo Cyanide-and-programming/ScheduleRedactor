@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheduleRedactor", "SheduleRedactor\SheduleRedactor.csproj", "{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E623AE68-8BBB-4041-9252-50A9319B53CB}"
+	ProjectSection(SolutionItems) = preProject
+		SheduleRedactor\DayRow_DayRow.sequencediagram = SheduleRedactor\DayRow_DayRow.sequencediagram
+		SheduleRedactor\Додавання заняття.sequencediagram = SheduleRedactor\Додавання заняття.sequencediagram
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Debug|x86.ActiveCfg = Debug|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Debug|x86.Build.0 = Debug|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Release|x86.ActiveCfg = Release|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
