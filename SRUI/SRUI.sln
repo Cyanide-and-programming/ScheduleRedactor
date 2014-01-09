@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRUI", "SRUI\SRUI.csproj", "{29FDFADF-E57D-4785-94EC-AC099912A6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serializer", "Serializer\Serializer.csproj", "{8E016F73-0311-41AC-9139-C51C27D31A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheduleRedactor", "SheduleRedactor\SheduleRedactor.csproj", "{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29FDFADF-E57D-4785-94EC-AC099912A6CA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{29FDFADF-E57D-4785-94EC-AC099912A6CA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{29FDFADF-E57D-4785-94EC-AC099912A6CA}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{29FDFADF-E57D-4785-94EC-AC099912A6CA}.Debug|x86.ActiveCfg = Debug|x86
+		{29FDFADF-E57D-4785-94EC-AC099912A6CA}.Debug|x86.Build.0 = Debug|x86
+		{29FDFADF-E57D-4785-94EC-AC099912A6CA}.Release|Any CPU.ActiveCfg = Release|x86
+		{29FDFADF-E57D-4785-94EC-AC099912A6CA}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{29FDFADF-E57D-4785-94EC-AC099912A6CA}.Release|Mixed Platforms.Build.0 = Release|x86
+		{29FDFADF-E57D-4785-94EC-AC099912A6CA}.Release|x86.ActiveCfg = Release|x86
+		{29FDFADF-E57D-4785-94EC-AC099912A6CA}.Release|x86.Build.0 = Release|x86
+		{8E016F73-0311-41AC-9139-C51C27D31A1B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8E016F73-0311-41AC-9139-C51C27D31A1B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8E016F73-0311-41AC-9139-C51C27D31A1B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8E016F73-0311-41AC-9139-C51C27D31A1B}.Debug|x86.ActiveCfg = Debug|x86
+		{8E016F73-0311-41AC-9139-C51C27D31A1B}.Debug|x86.Build.0 = Debug|x86
+		{8E016F73-0311-41AC-9139-C51C27D31A1B}.Release|Any CPU.ActiveCfg = Release|x86
+		{8E016F73-0311-41AC-9139-C51C27D31A1B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8E016F73-0311-41AC-9139-C51C27D31A1B}.Release|Mixed Platforms.Build.0 = Release|x86
+		{8E016F73-0311-41AC-9139-C51C27D31A1B}.Release|x86.ActiveCfg = Release|x86
+		{8E016F73-0311-41AC-9139-C51C27D31A1B}.Release|x86.Build.0 = Release|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Debug|x86.ActiveCfg = Debug|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Debug|x86.Build.0 = Debug|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Release|Any CPU.ActiveCfg = Release|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Release|Mixed Platforms.Build.0 = Release|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Release|x86.ActiveCfg = Release|x86
+		{00B9BFB5-8133-4CEC-A838-7EB18E7AD7B3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
