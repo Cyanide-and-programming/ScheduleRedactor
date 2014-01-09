@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="87198901-4bd1-4e6c-a217-0c5b74394fe9" name="UMLComponentDiagram1" linkedPackageId="2cf26ac8-f0c4-4432-89b9-33848b7f713a" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="fe7d3a0b-0177-438b-88c6-28b434e11966">
+      <profileInstance Id="2fcc2bae-969c-4c80-9ebf-c590ce446ae2" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="5b4ca2cf-d823-40d9-9c09-89b451436fb7">
+      <profileInstance Id="b2166deb-7180-495a-b593-4a2f53d2be3b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="54738985-924f-473a-807e-ed60a6ee5ff6" name="SheduleRedactor" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3f7cf425-231c-4a0c-aa5a-d4c4009f5f6d" />
+        <ownedAttributesInternal>
+          <part Id="4059a024-7617-434d-b6c1-eb7ea464cf60" name="Part1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="d4a15f08-6ab7-43cd-898b-3e4c05257b41" />
+            <type_NamedElement>
+              <componentMoniker Id="f0f55f68-bd53-4301-8a59-97702c5ea297" LastKnownName="Subject.cs1" />
+            </type_NamedElement>
+          </part>
+          <part Id="0d8b7ebb-0a6b-4369-a8df-a4c343040024" name="Part2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="0c9dbe4b-f826-4ad7-9250-2ef137b303f7" />
+            <targetNamedElementsInternal>
+              <connector Id="46a0feae-a143-4155-89af-149e2ca1895f" isLeaf="false" isStatic="false">
+                <partMoniker Id="3da8f8a9-bda4-41a1-9224-fdfb9be74bed" LastKnownName="Part6" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="1dac09fd-61b4-4ce7-b9ba-9ee7ddc5a928">
+                      <elementDefinition Id="55d2e7eb-4f72-4026-86fc-37ca3404442e" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="e01aded2-45d2-4f96-83af-e50ca49693b1">
+                      <elementDefinition Id="4157c5b2-924c-496c-bb5c-835157ffaf7b" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="8b88dd3c-fb30-467c-87b6-027ddaa213eb" />
+              </connector>
+              <connector Id="c3dd4f07-7bad-45c0-8062-6a417c5cb415" isLeaf="false" isStatic="false">
+                <partMoniker Id="4059a024-7617-434d-b6c1-eb7ea464cf60" LastKnownName="Part1" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="62a58bc6-478f-4a8b-a56f-cecffd93c4bd">
+                      <elementDefinition Id="7a5ed01a-eb84-4b29-86b3-964a1e03026e" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="311a7a35-9b5a-4351-8d91-36011968ebd3">
+                      <elementDefinition Id="e266f9f7-cbcb-46ac-9779-a6dbb2ebb950" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="2159c080-691c-4f1c-b734-8bdfb4693857" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="1d3d2c6f-1170-4303-9b1a-4d6788073c41" LastKnownName="DayRow.cs1" />
+            </type_NamedElement>
+          </part>
+          <part Id="a3b9adbf-ebc7-4ffa-8c52-30354ee7b5a8" name="Part3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="5041afaf-d81f-4d4a-ae5c-c2e0ce084a15" />
+            <targetNamedElementsInternal>
+              <connector Id="ec116f4b-447a-4597-872f-2842e1e2b791" isLeaf="false" isStatic="false">
+                <partMoniker Id="eddc8673-07c5-4e75-9046-6c1a1d118065" LastKnownName="Part7" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="7e7507d7-3be7-4380-b703-37ec9fcf7950">
+                      <elementDefinition Id="5930a9c5-6a84-47e7-95b0-a6009487cda4" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="c196ce75-1d7a-409b-9e27-001b13277994">
+                      <elementDefinition Id="826493b8-730a-43c8-868a-586f6f709eb4" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="15025886-0391-4d50-870d-e7aeceabe0f6" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="57f7cadb-432f-4222-ad9f-fe23c1ddb992" LastKnownName="Day.cs1" />
+            </type_NamedElement>
+          </part>
+          <part Id="11ff0bb8-c0f5-4575-8cdf-aab313ba9d95" name="Part4" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="17033aea-078a-49c7-beb5-de46d33fd5ea" />
+            <targetNamedElementsInternal>
+              <connector Id="fd4c0e33-b3de-4697-9689-2889403d4bf8" isLeaf="false" isStatic="false">
+                <partMoniker Id="a3b9adbf-ebc7-4ffa-8c52-30354ee7b5a8" LastKnownName="Part3" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="9bd65952-3899-4ab4-b4e4-a289451e55eb">
+                      <elementDefinition Id="749ca8ce-1548-49d0-b849-86ada80f1b37" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="149d4148-f07d-471f-b1c4-1a3c2f374e67">
+                      <elementDefinition Id="bca50e6f-77cf-4fa8-89be-a1cb549ed657" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="6b31ac78-654b-4f3d-8730-beeacd1e0676" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="99bf22f2-bda7-4853-ad2c-7c474a082572" LastKnownName="Week.cs1" />
+            </type_NamedElement>
+          </part>
+          <part Id="0725e797-09b7-4acb-afed-760f1b40c6f8" name="Part5" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="161125fc-d229-4d7d-9f5a-517c28cd23a2" />
+            <targetNamedElementsInternal>
+              <connector Id="ede4ac31-5fc0-442b-9943-00fc19a377f7" isLeaf="false" isStatic="false">
+                <partMoniker Id="11ff0bb8-c0f5-4575-8cdf-aab313ba9d95" LastKnownName="Part4" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="98cbbd6e-f190-4d99-baf2-3c4cd1662bf1">
+                      <elementDefinition Id="8ee40a2e-eb01-4195-b0aa-81faba1b9647" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="128bb50d-211a-4d79-bddb-7b56c91fc822">
+                      <elementDefinition Id="09d7cb9e-940f-4c39-9c22-25cf92f29329" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="df422e80-7157-43af-9575-f7b1ac6366b1" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="b42904b7-1a1d-4385-8edc-be6bb93a1685" LastKnownName="Shedule.cs1" />
+            </type_NamedElement>
+          </part>
+          <part Id="3da8f8a9-bda4-41a1-9224-fdfb9be74bed" name="Part6" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="84580785-c71f-46c7-8b1d-5d6bbf55d4e9" />
+            <type_NamedElement>
+              <componentMoniker Id="2bee7367-8aa2-4f6a-9e66-0f300afd2f6f" LastKnownName="Audience.cs1" />
+            </type_NamedElement>
+          </part>
+          <part Id="eddc8673-07c5-4e75-9046-6c1a1d118065" name="Part7" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="5e972097-35a5-44c6-9334-f6cdf21fa56a" />
+            <targetNamedElementsInternal>
+              <connector Id="6adafca8-7e75-4492-a0fc-327a1355ed09" isLeaf="false" isStatic="false">
+                <partMoniker Id="0d8b7ebb-0a6b-4369-a8df-a4c343040024" LastKnownName="Part2" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="4c23f752-1436-41ce-aeff-1daa6e0d4b32">
+                      <elementDefinition Id="8e15bb01-49d9-474a-8de0-08dab8b03e7c" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="fed8e7a0-01de-4b00-843c-98ad44747269">
+                      <elementDefinition Id="7c7274f8-b493-4d8f-bb2d-5383751a1978" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="895755fb-a8a6-4ca1-b88b-a4d229d49bbe" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="96edc6d0-38d3-4881-b1a9-9d1f7fbc9522" LastKnownName="DayRowPair" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="f0f55f68-bd53-4301-8a59-97702c5ea297" name="Subject.cs1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c0ec7290-5e4e-4cda-addb-4b4286a2d64b" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="1d3d2c6f-1170-4303-9b1a-4d6788073c41" name="DayRow.cs1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4e981065-354a-4152-8135-7bac16b6a419" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="57f7cadb-432f-4222-ad9f-fe23c1ddb992" name="Day.cs1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="56f92dca-3b69-46a5-8844-1301e85d628c" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="99bf22f2-bda7-4853-ad2c-7c474a082572" name="Week.cs1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0e00fae0-9cb4-46da-9248-2fb986fd846d" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="b42904b7-1a1d-4385-8edc-be6bb93a1685" name="Shedule.cs1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a3c9eec6-8064-4266-8eef-3c30e2d3aff6" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="2bee7367-8aa2-4f6a-9e66-0f300afd2f6f" name="Audience.cs1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="51c69f92-2009-442f-a4b7-5002dcca2924" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="96edc6d0-38d3-4881-b1a9-9d1f7fbc9522" name="DayRowPair" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b0f6c3b0-e21c-4c2e-8900-a85ba6fc1dad" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="beb2c0af-cfb7-4144-9334-bcc39eae077c" name="Serializer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e7075262-4bf0-4ee3-b22f-4b2580151436" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="5abe6190-d7df-4855-9096-b0bf201ffeef" name="SRProject" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="04c01659-b792-42d1-af8d-259d770992ae" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="89ac7c05-1a93-4f07-b2fd-0fa787e2ca98" name="SheduleRedactorUI" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b306e398-a0e7-42a0-9b99-6d8745fd1394" />
+        <suppliersInternal>
+          <dependency Id="4e379795-9bd8-40b0-ac67-9bd3a1a0e2ea">
+            <componentMoniker Id="54738985-924f-473a-807e-ed60a6ee5ff6" LastKnownName="SheduleRedactor" />
+            <elementDefinition Id="b3d0eba8-2849-4ff0-b7f5-edc88268fe6c" />
+          </dependency>
+          <dependency Id="d7b01bc2-2268-4f84-8f29-b0c6dd48070d">
+            <componentMoniker Id="beb2c0af-cfb7-4144-9334-bcc39eae077c" LastKnownName="Serializer" />
+            <elementDefinition Id="956b9f12-1bbe-4cf5-a163-997188e9cc09" />
+          </dependency>
+          <dependency Id="a5f6f797-2af9-4b4b-95aa-23f424796a5d">
+            <componentMoniker Id="5abe6190-d7df-4855-9096-b0bf201ffeef" LastKnownName="SRProject" />
+            <elementDefinition Id="a7fc7405-bb41-4e84-9a99-dced375ae4c6" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <part Id="f391e270-a1d5-4497-9e65-90bf0fe36d5b" name="Part1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="10544552-7905-4c03-8f3a-638dbaac68d7" />
+            <type_NamedElement>
+              <componentMoniker Id="0d145f44-3ee5-4edf-9976-764f5db3a3fe" LastKnownName="AddAuditoryWindow.xaml" />
+            </type_NamedElement>
+          </part>
+          <part Id="f62f6f35-7134-48f5-9f13-790b67d02b2c" name="Part2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="7d38b34b-8379-42a1-a327-c31938cf58e6" />
+            <type_NamedElement>
+              <componentMoniker Id="647fc0a9-a095-424a-a806-d4074d16793e" LastKnownName="AddCathedraWindow.xaml" />
+            </type_NamedElement>
+          </part>
+          <part Id="668f4719-a020-4ee0-99f2-20ea28ad0632" name="Part3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="7eb15f66-736a-4a62-8def-38bd3ba8648e" />
+            <type_NamedElement>
+              <componentMoniker Id="78483122-dc5d-441d-b9ed-93ed9d24240f" LastKnownName="AddFacultyWindow.xaml" />
+            </type_NamedElement>
+          </part>
+          <part Id="45a11c2f-eb13-4eb7-b079-1f53dc4ebf89" name="Part4" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="81583ca0-6a07-4fbb-afa9-56b300d47558" />
+            <type_NamedElement>
+              <componentMoniker Id="6da4714e-7405-449d-bc21-1dfaba4041d3" LastKnownName="AddGroupWindow.xaml" />
+            </type_NamedElement>
+          </part>
+          <part Id="4948fa29-6f8d-4f9e-ae50-8f3fccd4ab3a" name="Part5" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="6e84f479-63ff-4d33-a112-ca1a502f6b58" />
+            <type_NamedElement>
+              <componentMoniker Id="f0553e03-e696-46be-928e-0d1d234c87f3" LastKnownName="AddSubjectWindow.xaml" />
+            </type_NamedElement>
+          </part>
+          <part Id="6c922c76-9744-4a10-9f7c-f76c92bb79b5" name="Part6" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="4a6ebc7e-9edf-4c25-b8a0-153ab97f6ed3" />
+            <type_NamedElement>
+              <componentMoniker Id="8813d783-2d68-4d71-b694-bce1c624583a" LastKnownName="AddSubjectWindow.xaml" />
+            </type_NamedElement>
+          </part>
+          <part Id="82f063e2-c466-4cc1-a6e7-e2496f19624f" name="Part7" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="c1d4cf9e-bc5c-4714-9714-c7e048c31e34" />
+            <targetNamedElementsInternal>
+              <connector Id="51c40353-4ee1-4deb-9305-b9feea41602d" isLeaf="false" isStatic="false">
+                <partMoniker Id="668f4719-a020-4ee0-99f2-20ea28ad0632" LastKnownName="Part3" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="9f48a905-c5a3-41b4-b5a8-544e40715cc2">
+                      <elementDefinition Id="dc028c72-57f5-4f92-82fd-452a3aba395a" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="261aa4aa-dca2-458d-ab26-fb0daddd1505">
+                      <elementDefinition Id="7038fc05-0c08-4c5d-b18f-c61afd723863" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="7cda101e-44a7-4ff9-9086-2b7ada37fd3b" />
+              </connector>
+              <connector Id="face99a5-0c40-4f22-b617-f1751240c4bc" isLeaf="false" isStatic="false">
+                <partMoniker Id="45a11c2f-eb13-4eb7-b079-1f53dc4ebf89" LastKnownName="Part4" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="1942bf43-c457-44ed-831d-46b64ab656db">
+                      <elementDefinition Id="4f9a48ec-2606-421d-96f2-2020c7584aa4" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="8b62cd0a-4ce2-41d6-837a-73a3fdcea7cd">
+                      <elementDefinition Id="ef2c2180-5640-4e90-8ec3-ed85fe1850aa" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="05e6fe97-36bd-432c-ae21-d6e52210be01" />
+              </connector>
+              <connector Id="cae3c088-fbb9-4ab1-8b87-8788ab741a0c" isLeaf="false" isStatic="false">
+                <partMoniker Id="f62f6f35-7134-48f5-9f13-790b67d02b2c" LastKnownName="Part2" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="5c8ec3e3-1fdb-49ef-baa8-673d69a6a7f5">
+                      <elementDefinition Id="18c0a874-213c-413e-b64b-09d7f12d42e6" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="e834c491-77e3-453c-9f4f-594101bae463">
+                      <elementDefinition Id="f942c200-9697-4a63-90e5-85a3fb2e2b60" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="3baa111c-750d-46cc-8b18-e2338560ffe2" />
+              </connector>
+              <connector Id="536c27c8-6719-403a-ae60-1f5496244771" isLeaf="false" isStatic="false">
+                <partMoniker Id="f391e270-a1d5-4497-9e65-90bf0fe36d5b" LastKnownName="Part1" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="250bf219-0164-44bf-a9b0-ef6298a2b107">
+                      <elementDefinition Id="0e027d28-43b7-4478-98c4-89980062b993" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="84e5588a-9a5e-4bf9-9409-2a0336b5f91a">
+                      <elementDefinition Id="161b676d-a673-495f-9f7f-67c0b3bc0a04" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="f7188e7f-ed01-4d91-b57c-4be1fb0ea939" />
+              </connector>
+              <connector Id="48636f6e-bc1a-403d-9e53-3cd0489b97e3" isLeaf="false" isStatic="false">
+                <partMoniker Id="4948fa29-6f8d-4f9e-ae50-8f3fccd4ab3a" LastKnownName="Part5" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="0884a480-c5fb-460f-b7a1-6a627e01ee54">
+                      <elementDefinition Id="acc9753f-c876-4548-8b87-346585a9c280" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="ce835386-0f9b-46e9-befe-ae459c06fe98">
+                      <elementDefinition Id="4b10482e-52e9-4dbd-9fae-5cc0064e49b6" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="9dfed130-e707-47c2-8b90-b826523d6f05" />
+              </connector>
+              <connector Id="9277ff86-b67f-495b-8129-04df22641499" isLeaf="false" isStatic="false">
+                <partMoniker Id="6c922c76-9744-4a10-9f7c-f76c92bb79b5" LastKnownName="Part6" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="f74e3681-7adb-47bc-8af8-96c1cb71724f">
+                      <elementDefinition Id="378cb7ba-0a50-4332-95c9-560a4a2bcae4" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd Id="56ff1ee5-e75f-43ab-8184-b4287afc1ef6">
+                      <elementDefinition Id="36e8330b-c936-4ea6-8508-49051c4a962d" />
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+                <elementDefinition Id="44065892-79fe-42c4-903e-e0c5686a8e90" />
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker Id="875ad8ba-c24b-49d0-9fd2-868b00e6e0d2" LastKnownName="MainWindow" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="0d145f44-3ee5-4edf-9976-764f5db3a3fe" name="AddAuditoryWindow.xaml" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0c21e987-76db-4503-8043-d5987cba5e95" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="647fc0a9-a095-424a-a806-d4074d16793e" name="AddCathedraWindow.xaml" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="adcaaef7-95fb-4152-b142-e3815b250393" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="78483122-dc5d-441d-b9ed-93ed9d24240f" name="AddFacultyWindow.xaml" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="29daaf52-163f-406d-bfad-e7ab7dc0fbef" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="6da4714e-7405-449d-bc21-1dfaba4041d3" name="AddGroupWindow.xaml" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f8d1ca63-98f7-493c-99e4-11fe6d38fdf1" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="f0553e03-e696-46be-928e-0d1d234c87f3" name="AddSubjectWindow.xaml" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3956bb6a-9e7e-4fe9-905d-66e4b6340b0e" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="8813d783-2d68-4d71-b694-bce1c624583a" name="AddSubjectWindow.xaml" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="aefe9b40-25a2-4eee-a760-0acb552d6457" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="875ad8ba-c24b-49d0-9fd2-868b00e6e0d2" name="MainWindow" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2035765c-9b60-4b70-9aa2-a4dc30e8df5b" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="2cf26ac8-f0c4-4432-89b9-33848b7f713a" name="Diagrams">
+    <elementDefinition Id="4ea9f806-1c0d-4171-9d86-eb93e25104a2" />
+  </package>
+</componentModel>
